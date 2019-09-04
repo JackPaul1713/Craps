@@ -47,7 +47,7 @@ public class Craps
 
 		// action
 
-		System.out.println("Welcome to craps.");
+		System.out.println("Welcome to Craps.");
 		System.out.println("Would you like to play? y or n.");
 		response = input.nextLine();
 
@@ -283,6 +283,12 @@ public class Craps
 		{
 			
 			System.out.println("Thanks for playing, Goodbye.");
+			System.exit(0);
+			
+		}
+		else
+		{
+			
 			System.exit(0);
 			
 		}
